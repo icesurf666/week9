@@ -1,0 +1,19 @@
+{
+  "engines": {
+    "node": "14.1.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^5.5.0",
+    "zombie": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
